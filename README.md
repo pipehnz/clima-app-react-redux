@@ -1,5 +1,5 @@
 
-## Aplicación de clima desarrollado con React-Redux
+## Aplicación de clima desarrollada con React-Redux
 
 Para ejecutarlo utiliza:
 
