@@ -1,8 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Aplicación de clima desarrollado con React-Redux
 
-In the project directory, you can run:
+Para ejecutarlo utiliza:
 
 ### `npm start`
 
