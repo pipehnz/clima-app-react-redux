@@ -7,8 +7,6 @@ import LocationListContainer from './containers/LocationListContainer';
 import './App.css';
 import ForecastExtendedContainer from './containers/ForecastExtendedContainer';
 
-
-
  class App extends Component {
    
     render(){
@@ -18,7 +16,7 @@ import ForecastExtendedContainer from './containers/ForecastExtendedContainer';
              <Row>
                 <AppBar position="sticky">
                     <Toolbar>                        
-                            <h3>Weather APP</h3>
+                            <h3>Aplicaición del Clima React / Redux</h3>
                     </Toolbar>
                 </AppBar>
              </Row>
