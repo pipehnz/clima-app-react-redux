@@ -8,15 +8,16 @@ const WeatherData = ({data : {temperature, weatherState, humidity, wind} }) => {
     //destructuring  lo igualo a data.
     //const {temperature, wetherState, humidity, wind} = data;
 
-    return ( <div className="weatherDataCont">
-        <WeatherTemperature 
-            temperature={temperature}
-            weatherState = {weatherState}
-            />
-        <WeatherExtraInfo humidity={humidity} wind= {wind}/>
+    return ( 
+        <div className="weatherDataCont">
+            <WeatherTemperature 
+                temperature={temperature}
+                weatherState = {weatherState} />
+            <WeatherExtraInfo humidity={humidity} wind= {wind}/>
         </div>
     );
 }
+
 WeatherData.propTypes = {
     data: PropTypes.shape({
         temperature: PropTypes.number.isRequired,

@@ -24,6 +24,7 @@ const LocationList = ({cities, onSelectedLocation}) => {
     </div>
     );
 };
+
 LocationList.propTypes = {
     cities : PropTypes.array.isRequired,
     onSelectedLocation: PropTypes.func,
